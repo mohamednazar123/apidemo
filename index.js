@@ -16,6 +16,7 @@ connection();
 // middlewares
 app.use(express.json());
 app.use(cors());
+console.log("server is running sucessfully");
 
 // routes
 app.use("/api/users", userRoutes);
